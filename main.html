@@ -1,31 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Navbar and Videos</title>
+    <style>
+        /* Some basic styles for navbar */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        li {
+            margin-right: 15px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-<header>3 random videos" above the videos.</header>
+
 <nav>
-	<ul>
-      <li data-ns-test="home" > Home </li>
-      <li data-ns-test="home" > About Us </li>
-      <li data-ns-test="home" > Contact Us </li>
-
-		
-	</ul>
-
-
-	
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 </nav>
 
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+<h2>Videos</h2>
+
+<video controls width="500">
+    <source src="video1.mp4" type="video/mp4">
+    
+</video>
+
+<video controls width="500">
+    <source src="video2.mp4" type="video/mp4">
+    
+</video>
 
 </body>
-
 </html>
